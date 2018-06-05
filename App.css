@@ -126,9 +126,6 @@ li:hover {
 /* Desktop over 960px
        ========================================================================== */
 @media screen and (min-width:959px){
-  .projectContainer {
-    margin-left: 40px;
-  }
 
   button {
     margin: 10px;
@@ -239,6 +236,7 @@ li:hover {
     line-height: .5;
     padding-bottom: 10px;
     margin-bottom: 10px;
+    margin-top: 10px;
   }
   .h4skills {
     font-size: 40px;
@@ -531,6 +529,16 @@ li:hover {
     justify-content: center;
   }
 
+  .h3resume {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Noticia Text', serif;
+    line-height: .5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+
   .footerContent {
     display: flex;
     flex-wrap: wrap;
@@ -649,9 +657,20 @@ li:hover {
 
   .skills {
     margin-left: 10px;
+    padding-left: 10px;
   }
   .languages {
     margin-left: 10px;
+  }
+
+  .h3resume {
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Noticia Text', serif;
+    line-height: .5;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
   }
 
   .hero-img {
@@ -692,6 +711,14 @@ li:hover {
     background-color: #BBAA71;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(209, 201, 38, 1) 0px;
+  }
+
+  .resumeSummary {
+    margin-bottom: 10px;
+  }
+
+  .resumeEducation {
+    margin-bottom: 10px;
   }
 
   .resumePageButton {
