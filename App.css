@@ -11,13 +11,24 @@ html, body {
  }
  body {
    overflow: auto;
-   background-color: rgb(196, 196, 196);
+   background-color: #C4C4C4;
  }
-
  hr {
    height: 1px;
    color: #000000;
    border-bottom: 1px solid #000000;
+ }
+ a {
+   font-size: 18px;
+   font-weight: bold;
+   color: #4C916B;
+   font-family: 'Noticia Text', serif;
+ }
+ a:hover {
+   color: #69A37B;
+ }
+ footer{
+   background-color: #222;
  }
 
  .shorthr {
@@ -43,17 +54,6 @@ html, body {
 
 .fullWidthNoBG {
   width: 100%;
-}
-
-a {
-  font-size: 15px;
-  font-weight: bold;
-  color: #8B8B8B;
-  font-family: 'Noticia Text', serif;
-}
-
-a:hover {
-  color: #048F90;
 }
 
 .smallLink {
@@ -101,54 +101,79 @@ li:hover {
   width: 100%;
   max-width: 900px;
 }
-
-#personalInfo {
-  margin-left: 25px;
-  margin-right: 0px;
-  max-width: 640px;
-}
-
+/* COLORS!!!========================================================================== */
 .fa-phone-square {
-  color: #ffc500;
+  color: #79BD8F;
 }
 .fa-envelope {
-  color: #ffc500;
+  color: #79BD8F;
 }
 .fa-user-plus {
-  color: #ffc500;
+  color: #79BD8F;
 }
 .fa-copyright {
-  color: #ffc500;
+  color: #79BD8F;
 }
 .fa-list-alt {
-  color: #517185;
+  color: #79BD8F;
 }
 .fa-language {
-  color: #517185;
+  color: #79BD8F;
 }
 .footerbutton {
   color: #ffffff;
+}
+.resumeButton {
+  background-color: #4C916B;
+}
+.workButton {
+  background-color: #BEEB9F;
+}
+.skillsButton {
+  background-color: #00A388;
+}
+.resumePageButton {
+  background-color: #4C916B;
+}
+.projectPageButton {
+  background-color: #4C916B;
+}
+.resumeButton:hover {
+  background-color: #69A37B;
+}
+.workButton:hover{
+  background-color: #ABD490;
+}
+.skillsButton:hover{
+  background-color: #008F77;
 }
 
 /* Desktop over 960px
        ========================================================================== */
 @media screen and (min-width:959px){
 
+  .topofthePage {
+      padding-top:10px;
+      width: 100%;
+  }
+
+  .personalInfo {
+    margin-left: 35px;
+    margin-right: 0px;
+    max-width: 640px;
+  }
+
+  .middleofthepage {
+    padding:30px 0px;
+  }
+
   button {
     margin: 10px;
     transition: background-color .5s ease-in-out;
   }
 
-  .resumeButton:hover {
-    background-color: #415f72;
-  }
-
-  .workButton:hover{
-    background-color: #037a7a;
-  }
-
-  .skillsButton:hover{
-    background-color: #a89861;
+  .buttons {
+    padding-top: 10px;
   }
 
   .resumeButton {
@@ -156,7 +181,6 @@ li:hover {
     width: 130px;
     margin: 0px;
     margin-right: 10px;
-    background-color: #517185;
     border: solid rgba(232, 53, 86, 1) 0px;
     border-radius: 50%;
   }
@@ -166,7 +190,6 @@ li:hover {
     width: 130px;
     margin: 0px;
     margin-right: 10px;
-    background-color: #048F90;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(97, 208, 212, 1) 0px;
     border-radius: 50%;
@@ -177,7 +200,6 @@ li:hover {
     width: 130px;
     margin: 0px;
     margin-right: 10px;
-    background-color: #BBAA71;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(209, 201, 38, 1) 0px;
     border-radius: 50%;
@@ -186,7 +208,6 @@ li:hover {
 .resumePageButton {
     height: 130px;
     width: 130px;
-    background-color: #517185;
     border: solid rgba(232, 53, 86, 1) 0px;
     border-radius: 50%;
     font-family: 'Noticia Text', serif;
@@ -199,7 +220,6 @@ li:hover {
 .projectPageButton {
     height: 110px;
     width: 110px;
-    background-color: #517185;
     border: solid rgba(232, 53, 86, 1) 0px;
     border-radius: 50%;
     font-family: 'Noticia Text', serif;
@@ -343,6 +363,7 @@ li:hover {
   }
 
   .bio {
+    padding-top: 20px;
     margin: 0px;
     text-align: justify;
   }
@@ -443,27 +464,23 @@ li:hover {
 /* Tablet between 488 and 960px
        ========================================================================== */
 @media screen and (min-width:488px) and (max-width: 960px) {
+  .topofthePage {
+      padding-top:10px;
+      width: 100%;
+  }
+
+  .middleofthepage {
+    padding:30px 0px;
+  }
+
   button {
     margin: 10px;
     transition: background-color .5s ease-in-out;
   }
 
-  .resumeButton:hover {
-    background-color: #415f72;
-  }
-
-  .workButton:hover{
-    background-color: #037a7a;
-  }
-
-  .skillsButton:hover{
-    background-color: #a89861;
-  }
-
   .resumeButton {
     height: 130px;
     width: 130px;
-    background-color: #517185;
     border: solid rgba(232, 53, 86, 1) 0px;
     border-radius: 50%;
   }
@@ -471,7 +488,6 @@ li:hover {
   .workButton {
     height: 130px;
     width: 130px;
-    background-color: #048F90;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(97, 208, 212, 1) 0px;
     border-radius: 50%;
@@ -480,7 +496,6 @@ li:hover {
   .skillsButton {
     height: 130px;
     width: 130px;
-    background-color: #BBAA71;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(209, 201, 38, 1) 0px;
     border-radius: 50%;
@@ -488,7 +503,6 @@ li:hover {
   .resumePageButton {
       height: 130px;
       width: 130px;
-      background-color: #517185;
       border: solid rgba(232, 53, 86, 1) 0px;
       border-radius: 50%;
       font-family: 'Noticia Text', serif;
@@ -500,7 +514,6 @@ li:hover {
   .projectPageButton {
       height: 110px;
       width: 110px;
-      background-color: #517185;
       border: solid rgba(232, 53, 86, 1) 0px;
       border-radius: 50%;
       font-family: 'Noticia Text', serif;
@@ -732,6 +745,11 @@ li:hover {
 /* Mobile
        ========================================================================== */
 @media screen and (max-width:487px){
+  .topofthePage {
+      margin-left:10px;
+      margin-right: 10px;
+      width: 100%;
+  }
   .wrapper {
       display: flex;
       flex-direction: column;
@@ -747,7 +765,7 @@ li:hover {
     }
   #menu {
       display: flex;
-      background-color: #ffffff;
+      background-color: #222;
       justify-content: flex-start;
       margin-bottom: 10px;
   }
@@ -787,13 +805,13 @@ li:hover {
     max-width: 300px;
     max-height: 300px;
   }
-  #personalInfo {
+  .personalInfo {
     margin-left: 0px;
     margin-right: 0px;
   }
   .bio {
-    margin-left: 15px;
-    margin-bottom: 15px;
+    padding-left: 4px;
+    padding-right: 4px;
     text-align: justify;
   }
   .resumeButton {
@@ -801,21 +819,18 @@ li:hover {
     text-align: center;
     height: 110px;
     width: 100%;
-    background-color: #517185;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(232, 53, 86, 1) 0px;
   }
   .workButton {
     height: 110px;
     width: 100%;
-    background-color: #048F90;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(97, 208, 212, 1) 0px;
   }
   .skillsButton {
     height: 110px;
     width: 100%;
-    background-color: #BBAA71;
     transition: border 0.4s ease 0s, background-color 0.4s ease 0s;
     border: solid rgba(209, 201, 38, 1) 0px;
   }
@@ -823,7 +838,6 @@ li:hover {
   .projectPageButton {
     height: 70px;
     width: 100%;
-    background-color: #517185;
     font-family: 'Noticia Text', serif;
     font-size: 16px;
     color: #ffffff;
@@ -842,7 +856,6 @@ li:hover {
   .resumePageButton {
       height: 110px;
       width: 100%;
-      background-color: #517185;
       border: solid rgba(232, 53, 86, 1) 0px;
       font-family: 'Noticia Text', serif;
       font-size: 20px;
@@ -985,7 +998,6 @@ li:hover {
     margin-top: 15px;
     margin-right: 0px;
     padding: 0px;
-    background-color: #222;
   }
   .grid-container {
     width: 100%;
