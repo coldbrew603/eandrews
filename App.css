@@ -56,6 +56,13 @@ a:hover {
   color: #048F90;
 }
 
+.smallLink {
+  font-size: 13px;
+  font-weight: bold;
+  color: #3cadac;
+  font-family: 'Open Sans', sans-serif;
+}
+
 li:hover {
   color: #048F90;
 }
@@ -196,7 +203,7 @@ li:hover {
     border: solid rgba(232, 53, 86, 1) 0px;
     border-radius: 50%;
     font-family: 'Noticia Text', serif;
-    font-size: 18px;
+    font-size: 16px;
     color: #ffffff;
     font-weight: bold;
     font-style: italic;
@@ -370,7 +377,9 @@ li:hover {
   }
 
   .projectText {
-    margin-top: 4px;
+    margin-top: 6px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
   }
 
   .contactMeTextProjectPage {
