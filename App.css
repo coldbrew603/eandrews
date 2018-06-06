@@ -386,6 +386,7 @@ li:hover {
     display: flex;
     align-items: center;
     font-size: 19px;
+    font-family: 'Noticia Text', serif;
   }
 
   .contactSubmit {
@@ -495,6 +496,31 @@ li:hover {
       color: #ffffff;
       font-weight: bold;
       font-style: italic;
+  }
+  .projectPageButton {
+      height: 110px;
+      width: 110px;
+      background-color: #517185;
+      border: solid rgba(232, 53, 86, 1) 0px;
+      border-radius: 50%;
+      font-family: 'Noticia Text', serif;
+      font-size: 16px;
+      color: #ffffff;
+      font-weight: bold;
+      font-style: italic;
+  }
+
+  .contactMeButton {
+    height: 60px;
+    width: 60px;
+    background-color: #048F90;
+    border: solid rgba(232, 53, 86, 1) 0px;
+    border-radius: 50%;
+    font-family: 'Noticia Text', serif;
+    font-size: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
   }
   .hero-img {
     border-radius: 50%;
@@ -609,6 +635,94 @@ li:hover {
     background-color: #222;
   }
 
+
+    .resumeText {
+      margin: 0px;
+      display: flex;
+      align-content: center;
+      align-items: center;
+    }
+
+    .projectDetailBlock {
+      display: flex;
+      flex-direction: column;
+      text-align: left;
+      align-items: start;
+      justify-content: center;
+    }
+
+    .projectLineBreak {
+      background-color: black;
+      height: 1px;
+      width: 80%;
+    }
+
+    .bigProjectLineBreak {
+      background-color: black;
+      height: 1px;
+      width: 100%;
+      margin-top: 15px;
+      margin-bottom: 15px;
+    }
+
+    .projectText {
+      margin-top: 6px;
+      font-family: 'Open Sans', sans-serif;
+      font-size: 13px;
+    }
+
+    .contactMeTextProjectPage {
+      display: flex;
+      align-items: center;
+      font-size: 19px;
+      font-family: 'Noticia Text', serif;
+    }
+
+    .contactSubmit {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    .contactMeHeading {
+      margin-bottom: 20px;
+    }
+
+    .myinfosection {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .contactMeButtonSection {
+      display: flex;
+      justify-content: space-between;
+      width: 23%;
+    }
+
+    .contactMeTextSection {
+      margin-top: 80px;
+    }
+
+    .contactMeText {
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      font-weight: bolder;
+      margin-top: 25px;
+      margin-right: 100px;
+      margin-bottom: 5px;
+      line-height: 0em;
+      color: #517185;
+    }
+
+    .contactMeTextNotBold {
+      font-size: 17px;
+      font-family: 'Open Sans', sans-serif;
+      color: #517185;
+    }
+
+    .formSection {
+      margin-top: 20px;
+    }
+
   .bio {
     padding-left: 20px;
   }
@@ -642,22 +756,6 @@ li:hover {
     width: 100vw !important;
     margin: 0px !important;
     padding: 0px;
-  }
-  .mobilebuttonchange {
-    display: flex;
-    justify-content: center;
-    width: 100vw !important;
-    margin: 0px !important;
-    padding: 0px;
-    height: 110px;
-    width: 100%;
-    background-color: #517185;
-    border: solid rgba(232, 53, 86, 1) 0px;
-    font-family: 'Noticia Text', serif;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: bold;
-    font-style: italic;
   }
 
   .skillsSection {
@@ -722,6 +820,17 @@ li:hover {
     border: solid rgba(209, 201, 38, 1) 0px;
   }
 
+  .projectPageButton {
+    height: 70px;
+    width: 100%;
+    background-color: #517185;
+    font-family: 'Noticia Text', serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+  }
+
   .resumeSummary {
     margin-bottom: 10px;
   }
@@ -740,6 +849,62 @@ li:hover {
       color: #ffffff;
       font-weight: bold;
       font-style: italic;
+  }
+
+  .h3projects {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Noticia Text', serif;
+    line-height: 1.2;
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .projectText {
+    margin: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+  }
+
+  .contactMeTextProjectPage {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'Noticia Text', serif;
+    margin-left: 4px;
+  }
+
+  .bigProjectLineBreak {
+    background-color: black;
+    height: 1px;
+    width: 90%;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+
+  .lineBreak {
+    height: 10px;
+  }
+
+  .seeMoreSection {
+    width: 100%
+
+  }
+  .contactMeButton {
+    height: 50px;
+    width: 100%;
+    background-color: #048F90;
+    border: solid rgba(232, 53, 86, 1) 0px;
+    font-family: 'Noticia Text', serif;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
   }
 
   h3 {
