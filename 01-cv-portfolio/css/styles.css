@@ -76,7 +76,8 @@ button{ outline: 0; border: 0; background: none; cursor: pointer; }
 
 b.max-bold{ font-weight: 700; }
 
-
+.fab,
+.ion-social-instagram {font-size: 30px; height: 100%; display: flex; justify-content: center; flex-direction: column;}
 
 /* ---------------------------------
 2. COMMONS FOR PAGE DESIGN
@@ -131,7 +132,7 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 --------------------------------- */
 
 .intro-section{ padding-top: 200px; position: relative; background-size: cover;
-	z-index: 1;background-image: url(../../images/italy-background.jpg); }
+	z-index: 1;background-image: url(../../images/road.jpg); }
 
 .intro-section:before{ content:''; z-index: -1; position: absolute; top: 0; bottom: 0; left: 0;
 	right: 0; background: rgba(0,0,0, .2); }
@@ -181,7 +182,12 @@ header .downlad-btn:hover{ -webkit-transform: translateY(-4px); transform: trans
 
 .experience .list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 20px; }
 
+.experience .indent-list > li{ display: block; position: relative; margin-bottom: 10px; padding-left: 25px; margin-left: 15px;}
+
 .experience .list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px;
+	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
+
+.experience .indent-list > li:before{ content: ''; position: absolute; top: 50%; left: 0; height: 10px;
 	width: 10px; margin-top: -5px; display: block; border-radius: 10px; border: 2px solid #fff; }
 
 
